@@ -1471,7 +1471,10 @@ SimpleMDE.prototype.render = function(el) {
 		backdrop.gitHubSpice = false;
 
 		CodeMirrorSpellChecker({
-			codeMirrorInstance: CodeMirror
+			codeMirrorInstance: CodeMirror,
+			language: options.spellCheckerLanguage,
+			urlAff: options.spellCheckerUrlAff,
+			urlDic: options.spellCheckerUrlDic,
 		});
 	} else {
 		mode = options.parsingConfig;
