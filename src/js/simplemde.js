@@ -1904,6 +1904,7 @@ SimpleMDE.redo = redo;
 SimpleMDE.togglePreview = togglePreview;
 SimpleMDE.toggleSideBySide = toggleSideBySide;
 SimpleMDE.toggleFullScreen = toggleFullScreen;
+SimpleMDE.CodeMirror = CodeMirror;
 
 /**
  * Bind instance methods for exports.
